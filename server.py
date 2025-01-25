@@ -37,41 +37,41 @@ class RAT_SERVER:
     
     def banner(self):
         print("======================================================")
-        print("                       Commands                       ")
+        print("                       Команды                       ")
         print("======================================================")
         print("System: ")
         print("======================================================")
         print(f'''
-help                      all commands available
-writein <text>            write the text to current opened window
-browser                   enter quiery to browser
-turnoffmon                turn off the monitor
-turnonmon                 turn on the monitor
-reboot                    reboot the system
-drivers                   all drivers of PC
-kill                      kill the system task
-sendmessage               send messagebox with the text
-cpu_cores                 number of CPU cores
-systeminfo (extended)     all basic info about system (via cmd)
-tasklist                  all system tasks
-localtime                 current system time
-curpid                    PID of client's process
-sysinfo (shrinked)        basic info about system (Powers of Python)
-shutdown                  shutdown client's PC
-isuseradmin               check if user is admin
-extendrights              extend system rights
-disabletaskmgr            disable Task Manager
-enabletaskmgr             enable Task Manager
-disableUAC                disable UAC
-monitors                  get all used monitors
-geolocate                 get location of computer
-volumeup                  increase system volume to 100%
-volumedown                decrease system volume to 0%
-setvalue                  set value in registry
-delkey                    delete key in registry
-createkey                 create key in registry
-setwallpaper              set wallpaper
-exit                      terminate the session of RAT
+help                      Все доступные команлды
+writein <text>            Ввести текст в текущее окно
+browser                   ввести запрос в браузер
+turnoffmon                отключить монитор
+turnonmon                 включить монитор
+reboot                    перезапустить систему
+drivers                   все драйвера компьютера
+kill                      удалить процесс
+sendmessage               отправить диалоговое окно с соообщением
+cpu_cores                 количество потоков(или ядер) процессора
+systeminfo (extended)     вся базовая информация о системе
+tasklist                  все процессы
+localtime                 текущее время
+curpid                    PID процесса клиента
+sysinfo (shrinked)        информация о системе
+shutdown                  Выключить систему клиента
+isuseradmin               проверить, имеет ли права администратора клиент
+extendrights              расширить права
+disabletaskmgr            отключить диспетчер задач
+enabletaskmgr             включить диспетчер задач
+disableUAC                выключить UAC
+monitors                  хуй знает
+geolocate                 геолокация компьютера
+volumeup                  увеличить звук на 100%
+volumedown                убавить звук до 0%
+setvalue                  установить значение в реестре
+delkey                    удалить ключ в реестре
+createkey                 создать ключ в реестре
+setwallpaper              поставить обои
+exit                      закончить сессию
 ''')
         print("======================================================")
         print("Shell: ")
