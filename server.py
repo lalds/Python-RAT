@@ -74,35 +74,37 @@ setwallpaper              поставить обои
 exit                      закончить сессию
 ''')
         print("======================================================")
-        print("Shell: ")
+        print("Файловая Система: ")
         print("======================================================")
         print(f'''
-pwd                       get current working directory
-shell                     execute commands via cmd
-cd                        change directory
-[Driver]:                 change current driver
-cd ..                     change directory back
-dir                       get all files of current directory
-abspath                   get absolute path of files
+    pwd получить текущую рабочую директорию
+    shell выполнить команды через командную строку (cmd)
+    cd сменить директорию
+    [Driver]: сменить текущий диск
+    cd .. вернуться на уровень выше в директории
+    dir получить список всех файлов в текущей директории
+    abspath получить абсолютный путь к файлу
 ''')
         print("======================================================")
-        print("Network: ")
+        print("Сеть: ")
         print("======================================================")
         print(f'''
-ipconfig                  local ip
-portscan                  port scanner
-profiles                  network profiles
-profilepswd               password for profile
+    ipconfig получить локальный IP-адрес
+    portscan сканирование портов
+    profiles получить список сетевых профилей
+    profilepswd получить пароль для сетевого профиля
 ''')
         print("======================================================")
-        print("Input devices: ")
+        print("Устройства Ввода: ")
         print("======================================================")
         print(f'''
-keyscan_start             start keylogger
-send_logs                 send captured keystrokes
-stop_keylogger            stop keylogger
-disable(--keyboard/--mouse/--all) 
-enable(--keyboard/--mouse/--all)
+    keyscan_start запустить кейлоггер (запись нажатий клавиш)
+    send_logs отправить записанные нажатия клавиш
+    stop_keylogger остановить кейлоггер
+    disable(--keyboard/--mouse/--all)
+        отключить клавиатуру/мышь/все устройства ввода
+    enable(--keyboard/--mouse/--all)
+        включить клавиатуру/мышь/все устройства ввода
 ''')
         print("======================================================")
         print("Video: ")
@@ -115,21 +117,21 @@ screenshot                capture screenshot
 webcam_snap               capture webcam photo
 ''')
         print("======================================================")
-        print("Files:")
+        print("Файлы:")
         print("======================================================")
         print(f'''
-delfile <file>            delete file
-editfile <file> <text>    edit file
-createfile <file>         create file
-download <file> <homedir> download file
-upload                    upload file
-cp <file1> <file2>        copy file
-mv <file> <path>          move file
-searchfile <file> <dir>   search for file in mentioned directory
-mkdir <dirname>           make directory
-rmdir <dirname>           remove directory
-startfile <file>          start file
-readfile <file>           read from file
+    delfile <file> удалить файл
+    editfile <file> <text> редактировать файл (добавить текст)
+    createfile <file> создать файл
+    download <file> <homedir> скачать файл
+    upload загрузить файл
+    cp <file1> <file2> скопировать файл
+    mv <file> <path> переместить файл
+    searchfile <file> <dir> найти файл в указанной директории
+    mkdir <dirname> создать директорию
+    rmdir <dirname> удалить директорию
+    startfile <file> запустить файл
+    readfile <file> прочитать содержимое файла
         ''')
         print("======================================================")
     
